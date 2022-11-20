@@ -1,0 +1,10 @@
+all: execution
+	
+execution: avl.o avl_main.o
+	gcc -o execution avl.o avl_main.o
+
+avl.o: avl.c
+	gcc -c -g avl.c
+
+avl_main.o: avl_main.c
+	gcc -c -g avl_main.c
