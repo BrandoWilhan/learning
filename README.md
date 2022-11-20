@@ -1,1 +1,2 @@
-I don't know yet
+# C algorithms
+old C algorithms i've learned in "Data Structures" discipline in UNB.
